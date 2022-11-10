@@ -118,6 +118,9 @@ public class RequestHandler implements Runnable {
                 requestMainHeaders[1],
                 requestMainHeaders[2]);
 
+        
+        
+        
         // Read every lines, which is a Header
         while ((requestLine = fromClient.readLine()) != null
                 /*string that remove space*/
